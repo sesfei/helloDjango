@@ -1,0 +1,6 @@
+<h1>{{ list.cnt }}</h1>
+<ul>
+{% for user in question.choice_set.all %}
+    <li>{{ choice.choice_text }}</li>
+{% endfor %}
+</ul>
